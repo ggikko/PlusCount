@@ -10,4 +10,10 @@ public class TestController {
 
         return "index";
     }
+
+    @RequestMapping(value = "/hello")
+    public String hello() {
+
+        return "hello";
+    }
 }

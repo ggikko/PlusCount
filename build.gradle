@@ -48,6 +48,7 @@ dependencies {
 	compile('org.projectlombok:lombok:1.16.6')
 	compile('org.springframework.boot:spring-boot-starter-mustache')
 	compile("mysql:mysql-connector-java:5.1.31")
+	compile('org.modelmapper:modelmapper:0.7.0')
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
